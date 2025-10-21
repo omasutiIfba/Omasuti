@@ -1,0 +1,94 @@
+/* Reset e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Barra fixa no topo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4a90e2;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}        
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}        
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}        
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+/* Conteúdo principal */
+main {
+    margin-top: 80px; /* Para compensar a barra fixa */
+    padding: 40px 20px;
+}
+
+/* Seção Sobre */
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.sobre-container h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.sobre-container h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.sobre-container p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

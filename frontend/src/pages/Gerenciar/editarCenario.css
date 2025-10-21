@@ -1,0 +1,112 @@
+/* container alinhado como o do cadastro */
+.editar-container {
+  max-width: 1000px;  /* mais largo que o cadastro p/ caber grid */
+}
+
+/* grid de edição: 2 colunas no desktop, 1 no mobile */
+.editar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 20px;
+  align-items: start;
+  width: 100%;          
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .editar-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* cartões (preview e campos) com o mesmo “feeling” do app */
+.editar-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;               
+  box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;              
+  width: 100%;              
+  box-sizing: border-box;
+}
+
+/* preview da imagem */
+.img-frame {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #fafafa;
+  border: 1px dashed #e4e4e4;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img-placeholder { color: #888; font-size: 0.95rem; }
+.img-hint { color: #777; font-size: 0.85rem; margin: 0; }
+
+/* inputs base harmonizados com seu textarea */
+.input-base {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-size: 1rem;
+}
+.input-base:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(53, 95, 181, 0.20), 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* banner “marca-texto” mais rente */
+.section-banner.tight {
+  background: var(--barra-home, #f9eac9);
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+}
+.section-banner.tight h2 {
+  margin: 0;
+  color: var(--texto-primario, #355FB5);
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+}
+
+.input-base,
+.editor-textarea-solid {
+  width: 100%;               
+  max-width: 100%;          
+  box-sizing: border-box;
+  margin: 0;             
+}
+
+.section-banner {
+  display: inline-block;
+  background: var(--barra-home);
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+}
+
+.input-busca {
+  display: block;        
+  margin: 0 auto 20px auto; 
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;       
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

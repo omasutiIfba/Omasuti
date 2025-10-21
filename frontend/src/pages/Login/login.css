@@ -1,0 +1,63 @@
+.login-bg {
+  min-height: 100vh;
+  background-color: #F8F0DE; /* mesma cor de fundo das outras telas */
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.login-card {
+  width: min(420px, 92vw);
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  padding: 24px;              
+  display: grid;
+  gap: 14px; 
+  box-sizing: border-box; 
+}
+
+.login-card h2 {
+  margin: 0 0 6px 0;
+  color: #355FB5;
+  text-align: center;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-card input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(53, 95, 181, 0.20), 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.btn-primario {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #48C774;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s ease, filter .15s ease;
+}
+
+.login-erro {
+  background: #FDECEA;
+  color: #B00020;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+}
+
+.btn-primario:hover { transform: translateY(-1px); filter: brightness(.98); }
+.btn-primario:active { transform: translateY(0); filter: brightness(.95); }

@@ -1,0 +1,53 @@
+/* pages/HomePage.css */
+.homepage-background {
+  min-height: 100vh;
+  background-image: url('./quebra-cabeca.png');
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.homepage-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  z-index: 0;
+}
+
+.full-width-box-homePage {
+  width: 100%;
+  padding: 30px 3%; 
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #f9eac9;
+  min-height: 225px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.full-width-box-homePage h1 {
+  color: #355FB5;
+  font-size: 5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  margin: 0; 
+  line-height: 1.3;
+}
+
+.full-width-box-homePage p {
+  color: #355FB5;
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0;
+  line-height: 1.3;
+}

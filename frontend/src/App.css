@@ -1,0 +1,9 @@
+.App {
+  margin: 0;
+  background-size: cover; /* Cobrir toda a tela */
+  background-position: center; /* Centralizar a imagem */
+  background-attachment: fixed; /* Fixar ao rolar a página */
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Garantir altura total da viewport */
+  font-family: 'Roboto', sans-serif; /* Exemplo: fonte do Figma */
+}

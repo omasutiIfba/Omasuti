@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka:wght@400;600&display=swap');
+
+
+.jogo-umacoluna .jogo-layout { 
+  grid-template-columns: 1fr !important;
+}
+
+/* se estiver usando só .jogo-stage + .jogo-main, isso basta: */
+.jogo-stage {
+  min-height: 100vh;
+  background-color: #F8F0DE;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;      /* centraliza vertical */
+  justify-content: center;  /* centraliza horizontal */
+}
+
+.jogo-main {
+  width: min(1000px, 92vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* centro */
+  justify-content: center;  /* centro */
+  gap: 16px;
+}
+
+/* quadro da imagem mais centralizado e com largura limitada */
+.cenario-frame.central {
+  margin: 0 auto;                 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: min(900px, 82vw);   /* igual nas duas */
+  max-height: 60vh;              /* igual nas duas */
+  width: 100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  overflow: hidden;
+  padding: 12px;
+}
+
+.cenario-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* caixa de pergunta/contexto centralizada */
+.texto-caixa.central {
+  width: 100%;
+  max-width: min(900px, 82vw);
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  color: #222;
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  line-height: 1.45;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pergunta-box, .texto-caixa {
+  font-family: 'Fredoka', sans-serif; 
+  font-size: 1.8rem !important;
+  font-weight: 600;
+}
+
+/* topbar para o botão voltar */
+.jogo-topbar {
+  width: min(1000px, 92vw);
+  margin: 0 auto 8px auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* base dos botões das telas */
+.jogo-acao-base {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.resposta-botoes {
+  display: flex;
+  gap: 20px; /* espaço entre os dois botões */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+:root {
+  --verde-primario: #48C774;    
+  --verde-hover: #3eb268;      
+  --verde-active: #379c5b;     
+}
+
+/* botão principal do jogo */
+.botao-jogo {
+  background-color: var(--verde-primario);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-jogo:hover {
+  background-color: var(--verde-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.botao-jogo:active {
+  background-color: var(--verde-active);
+  transform: translateY(0);
+}
+
+/* botão secundário */
+.botao-secundario {
+  background-color: white;
+  color: var(--verde-primario);
+  border: 2px solid var(--verde-primario);
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-secundario:hover {
+  background-color: var(--verde-hover);
+  color: white;
+}

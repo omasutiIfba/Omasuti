@@ -1,0 +1,71 @@
+.menu-jogos-background {
+  min-height: 100vh;
+  background-image: url('./quebra-cabeca.png');
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px; /* Compensa o header */
+}
+
+.menu-jogos-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(25px);
+  z-index: 0;
+}
+
+/* CONTEÚDO CENTRALIZADO */
+.menu-jogos-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 320px; 
+  margin: 0 auto;  
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* BOTÕES */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 16px; 
+}
+
+.menu-button {
+   width: 500px;                        
+  padding: 10px 16px;                 
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5rem;              
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.menu-button.primary {
+  background-color: #f9eac9;
+  color: #355FB5;
+}
+
+.menu-button.secondary {
+  background-color: #f9eac9;
+  color: #355FB5;
+}
+
+.menu-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
