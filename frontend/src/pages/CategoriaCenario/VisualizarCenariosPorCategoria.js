@@ -33,7 +33,7 @@ const VisualizarCenariosPorCategoria = () => {
     <div className="menu-jogos-background">
       <div className="menu-jogos-content">
         <div className="section-banner">
-          <h2>Cenários da categoria: {categoria.nome}</h2>
+          <h2>Cenários da categoria: {categoria}</h2>
         </div>
         
         <input

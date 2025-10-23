@@ -1,0 +1,204 @@
+﻿Diagnose log at 2025-10-21T19:37:14Z
+
+Executable: C:\Program Files\Git\mingw64\libexec\git-core\git-credential-manager-core.exe
+Version: 2.0.696+4365b917da
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22621)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Kemita Suga
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-K7DFB6C
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\Kemita Suga\OneDrive
+ChocolateyLastPathUpdate=133820625243647313
+ChocolateyToolsLocation=C:\tools
+SESSIONNAME=Console
+CLASSPATH=.;
+PROCESSOR_REVISION=9e0a
+INTEL_DEV_REDIST=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+_MSYS2_PREFIX=x86_64
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\KEMITA~1\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Kemita Suga\AppData\Local
+MSYSTEM=MINGW64
+TERM=cygwin
+JAVA_HOME=C:\Program Files\Java\jdk-21
+USERDOMAIN=DESKTOP-K7DFB6C
+PUBLIC=D:\Users\Public
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Kemita Suga\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;"C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21\bin";C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Kemita Suga\AppData\Local\.meteor;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git;C:\Program Files\Git\cmd;D:\mongosh-1.5.0-win32-x64\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\platform-tools_r33.0.3-windows\platform-tools;C:\Users\Kemita Suga\AppData\Roaming\npm;C:\Users\Kemita Suga\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kemita Suga\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Kemita Suga\AppData\Local\Programs\Python\Python36\;C:\Users\Kemita Suga\AppData\Local\Microsoft\WindowsApps;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\Users\Kemita Suga\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Kemita Suga\AppData\Local\Microsoft\WindowsApps;C:\Users\Kemita Suga\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\Kemita Suga\AppData\Local\Programs\Microsoft VS Code\bin
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+TMPDIR=C:\Users\KEMITA~1\AppData\Local\Temp
+APPDATA=C:\Users\Kemita Suga\AppData\Roaming
+_MSYS2_BASH=C:\tools\msys64\usr\bin\bash.exe
+ProgramFiles(x86)=C:\Program Files (x86)
+EFC_9208=1
+NUMBER_OF_PROCESSORS=8
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+TMP=C:\Users\KEMITA~1\AppData\Local\Temp
+mondodb=D:\mongosh-1.5.0-win32-x64\bin
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+NVM_SYMLINK=C:\Program Files\nodejs
+NVM_HOME=C:\Users\Kemita Suga\AppData\Roaming\nvm
+HOME=C:\Users\Kemita Suga
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\DESKTOP-K7DFB6C
+USERPROFILE=C:\Users\Kemita Suga
+SystemRoot=C:\WINDOWS
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-K7DFB6C
+PROCESSOR_ARCHITEW6432=AMD64
+HOMEDRIVE=C:
+PSModulePath=C:\Users\Kemita Suga\OneDrive\Documentos\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+USERNAME=Kemita Suga
+MIC_LD_LIBRARY_PATH=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\Kemita Suga\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Kemita Suga\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Kemita Suga\AppData\Local\Temp\945644aaa81a7703e4acfd75'... OK
+Reading from temporary file 'C:\Users\Kemita Suga\AppData\Local\Temp\945644aaa81a7703e4acfd75'... OK
+Deleting temporary file 'C:\Users\Kemita Suga\AppData\Local\Temp\945644aaa81a7703e4acfd75'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Kemita Suga
+UserDataDirectoryPath: C:\Users\Kemita Suga\.gcm
+GetCurrentDirectory(): C:\Omasuti
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60801/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+Testing with IHttpClientFactory created HTTP client...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60803/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.36.0.windows.1'
+Locating current repository... OK
+Git repository at 'C:/Omasuti/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager-core
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Kemita Suga/.gitconfig	user.name=Jean Jesus
+file:C:/Users/Kemita Suga/.gitconfig	user.email=59174015+JeanNewb@users.noreply.github.com
+file:C:/Users/Kemita Suga/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/Kemita Suga/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/Kemita Suga/.gitconfig	filter.lfs.required=true
+file:C:/Users/Kemita Suga/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/Kemita Suga/.gitconfig	credential.helper=manager-core
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	core.autocrlf=true
+file:.git/config	remote.origin.url=https://github.com/KemitaS/omasuti-tcc.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Kemita Suga\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Kemita Suga\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
